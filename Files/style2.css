@@ -1,0 +1,45 @@
+.prices {
+  font-family: "Open Sans";
+  background-color: orange;
+  padding: 50px 100px 0px 100px;
+}
+.sub-conteiner-header-block {
+  border-bottom: 1px #473a2d dashed;
+  height: 70px;
+  background-color: yellow;
+}
+.sub-conteiner-header-block h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #473a2d
+}
+.prices-block {
+  width: 1065px;
+  height: 1500px;
+  background-color: grey;
+}
+.prices-block .prices-block-content {
+  width: 500px;
+  height: 500;
+  margin: 15px;
+  background-color: green;
+  display: block;
+  float: left;
+  position: relative;
+  clear: both;
+}
+.prices-block .prices-block-table {
+  width: 500px;
+  hight: 700px;
+  margin: 10px;
+  background-color: red;
+  display: block;
+  float: left;
+  position: relative;
+  clear: both;
+}
+.prices-block .prices-block-table tr {
+  width: 250px;
+  height: 15px;
+  border: 1px solid black;
+}

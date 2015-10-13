@@ -1,0 +1,172 @@
+.bigblock {
+  border: 2px solid #0000ff /*BORDER*/
+}
+.header {
+width: auto;
+height: 150px;
+  border: 2px solid #0000ff; /*BORDER*/
+  background-color: #473a2d;
+}
+.logo {
+  width: 100%;
+  height: 115px;
+  background-color: #473a2d;
+}
+.logo img {
+  width: 113px;
+  height: 100%;
+  background-color: #473a2d; /*inherit??*/
+  float: left;
+  clear: both; /* где писать clear:both */
+}
+.menu {
+  width: 700px;
+  float:left;
+  border-left: solid;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li {
+    float: left;
+}
+.menu a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #473a2d;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+.menu a:hover, a:active {
+    background-color: #5b4d3b;
+}
+.language {
+  width: 200px;
+  float:right;
+}
+.language ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.language li {
+  display:block;
+  float: right;
+}
+.language a:link, a:visited {
+width: 37px;
+height: 100%;
+background-color: #473a2d;
+color: #FFFFFF;
+text-align: center;
+display: block;
+padding: 4px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.language a:hover, a:active {
+  background-color: #5b4d3b;
+}
+
+
+p .slider {
+  background-color: black;
+  color: white;
+}
+/* сделать прозрачность фона и анимацию при наведении мыши */
+.main-title {
+  width: 0px;
+  height: 0px;
+  background-color: #fbe3cf;
+  color: #95782d;
+  font-family: sans-serif;
+}
+.h_line{
+  border-bottom: 1px dashed; /* dashed - ? */
+  color: #49311C;
+  width:100%;
+  height:1px;
+  background: #fbe3cf }
+}
+.slider img {
+  width: 100%;
+  height: 350px;
+}
+.bigblock h1 { /* все заголовки */
+  text-transform: uppercase;
+  color: #7a5230;
+  font-family: sans-serif;
+  text-align: center;
+}
+.white-special-background{
+  background-color: grey;
+  padding: 10px 50px;
+}
+
+.sub-conteiner-header-block {
+  border-bottom: 1px black dashed;
+  height: 60px;
+}
+.sub-conteiner-header-block h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-block{
+  width: 372px;
+  height: 300px;
+  background-color: green;
+  margin: 10px;
+}
+
+.service-block > div {
+  float: left;
+  height: inherit;
+  background-color: red;
+}
+.service-block-icon-block {
+  width: 70px;
+}
+.service-block-content-block {
+  width: 100px;
+  margin-left: 10px;
+}
+.service-block-content-block h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+}
+.service-block-center{
+  margin: 0px 32px;
+}
+
+.serice-block-content-block hr {
+  width: 15px;
+}
+.line {
+  border-bottom: 1px solid black;
+  width: 50px;
+}
+
+.pakalpojumi {
+  background-color: #EFEBD6;
+  font-family: Verdana;
+  color: grey;
+}
+.pakalpojumi h2 {
+  font-family: fantasy;
+  font-size: 20px;
+}
+.pakalpojumi p {
+  font-family: serif;
+  color: black;
+}
+.pakalpojumi img {
+  float: left;}

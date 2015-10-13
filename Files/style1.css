@@ -1,0 +1,144 @@
+.header {
+  width: auto;
+  height: 95px;
+  background-color: #473a2d;
+  clear: both;
+}
+.header .logo {
+  height: 52px;
+  width: 190px;
+  padding: 20px 100px 5px 100px;
+  background-color: #473a2d;
+}
+.header .menu {
+  width: 700px;
+  float: right;
+  background-color: #473a2d;
+}
+.header .menu ul {
+    list-style-type: none;
+}
+.header .menu li {
+    float: left;
+}
+.header .menu a:link, a:visited {
+    display: block;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #473a2d;
+    text-align: center;
+    text-decoration: none;
+}
+.header .menu a:hover, a:active {
+    background-color: #5b4d3b;
+    padding: 10px;
+}
+.header .language {
+  background-color: #473a2d;
+  width: 200px
+  margin: 25px 20px 25px 900px;
+  float: right;
+}
+.header .language ul {
+  list-style-type: none;
+}
+.header .language li {
+  float: left;
+}
+.header .language a:link, a:visited {
+    display: block;
+    width: 60px;
+    color: #FFFFFF;
+    background-color: #473a2d;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+.header .language a:hover, a:active {
+    background-color: #5b4d3b;
+}
+
+
+.slider {
+  width: auto;
+  height: 500px;
+  background-color: green;
+  padding: 5px;
+  clear: both;
+}
+.slider img {
+  height: inherit;
+  width: inherit;
+  position:absolute;
+
+}
+.slider .transbox {
+  width: 400px; /* можно ли сделать по размеру параграфа?*/
+  margin-bottom: 24px;
+  background-color: #000000;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  float:left;
+  clear: both;
+  position: relative;
+  top: 250px;
+  left: 185px;
+}
+.slider .transbox p {
+  font-family: "Open Sans";
+  color: #ffffff;
+  padding: 14px;
+}
+.services {
+  font-family: "Open Sans";
+  background-color: blue;
+  padding: 40px 50px 0px 100px; /* right=50px, margin-right=50px (service-block)*/
+}
+.services .sub-conteiner-header-block {
+  border-bottom: 1px #473a2d dashed;
+  height: 70px;
+  background-color: yellow;
+}
+.services .sub-conteiner-header-block h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #473a2d
+}
+
+
+.services .services-content {
+  width: 1115px;
+  height: 550px;
+  background-color: grey;
+}
+.services .services-content .service-block {
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+  padding: 2px;
+  background-color: green;
+}
+.services .services-content div {
+  display: block;
+  float:left;
+  clear: both;
+  position: relative;
+}
+.services .services-content .service-block div {
+  display: inline;
+  float:left;
+  clear: both;
+  position: relative;
+}
+.services .services-content .service-block .service-block-icon-block {
+  width: 30px;
+  height: 100px;
+  background-color: white;
+}
+.services .services-content .service-block .service-block-content-block {
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+  background-color: red;
+  padding: 2px;
+}
